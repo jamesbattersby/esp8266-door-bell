@@ -18,7 +18,8 @@ install:
     #   https://platformio.org/lib/show/794/xxtea-lib
     #   https://platformio.org/lib/show/89/PubSubClient
     #   https://platformio.org/lib/show/2951/GxEPD
-    - platformio lib -g install 794 89 2951
+    #   https://platformio.org/lib/show/13/Adafruit%20GFX%20Library
+    - platformio lib -g install 794 89 2951 13
     - cp include/wifiConfig.tmpl include/wifiConfig.h
 
 script:
